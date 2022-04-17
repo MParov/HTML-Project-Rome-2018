@@ -1,0 +1,92 @@
+body{
+	background-color: rgb(255, 255, 204); 					/*Фон на страницата*/
+	background: url(Pictures/roma.gif);
+	background-repeat: y;
+}
+nav{
+    list-style-type: none;									/*nav*/
+    margin: 5;
+    padding: 5;
+    overflow: hidden;
+    background-color: rgb(255, 0, 0);
+	border-radius: 15px;
+	border: 1px solid black;
+	margin-bottom: 10px;
+}
+li {
+    float: left;											/*разположение nav*/
+}
+
+li a {
+    display: block;											/*лента nav*/
+    color: black;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+h1{															/*стил h1*/
+	text-align: left;
+	border: 1px solid rgb(179, 0, 0);
+	color: rgb(179, 0, 0);
+	font-family: 'Dancing Script', cursive;
+	font-size: 70px;
+	background-color: rgb(255, 255, 204); 
+	border-radius: 15px;
+	padding-left: 60px;
+}
+h2{															/*стил h2*/
+	color: rgb(179, 0, 0);
+}
+h3{															/*стил h3*/
+	color: rgb(179, 0, 0);
+}
+.h3Pictures{												/*стил h3 снимки изпълнени с class*/
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+}
+article{													/*стил article*/
+	color: black;
+}
+hr{
+	color: solid rgb(179, 0, 0);
+	size: 1px;
+}
+section{													/*стил section*/
+	text-align: justify;
+	font-family: 'Verdana' cursive;/*'Anton', sans-serif;*/
+	color: black;
+	background-color: rgb(255, 255, 204);
+	height: auto;
+	width: 1100px;
+	border: 1px solid rgb(179, 0, 0);
+	border-radius: 15px;
+	margin: 20px;
+	padding: 20px;
+	font-size: 17px;
+}
+aside{														/*стил aside*/
+	background-color: rgb(255, 255, 204);
+	height: auto;
+	width: 1100px;
+	border: 1px solid rgb(179, 0, 0);;
+	border-radius: 15px;
+	margin: 20px;
+	padding: 20px;
+	font-size: 17px;
+	text-align: left;
+}
+#centralPhoto{												/*стил на главната снимка изпълнена с id*/
+	border-radius:15px;
+	height: 100%;
+	width: 100%;
+}
+footer{														/*стил footer*/
+	text-align: center;
+	font-size: 17px;
+}
+#h2Pic{														/*стил снимка h2*/
+	border-radius: 50%;
+	height: 40%;
+	width: 40%;
+}
